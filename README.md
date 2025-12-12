@@ -22,7 +22,7 @@ A test automation framework demonstrating E2E and API testing using Cypress with
 ## 🛠️ Installation
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/bhaveshmistry8/cypress-bdd-framework.git
 cd cypress-bdd-framework
 
 # Install dependencies
@@ -99,8 +99,6 @@ cypress-bdd-framework/
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
-GitHub: @yourusername
+Your Name - bhaveshmistry@outlook.com
+GitHub: @bhaveshmistry8
 
----
-⭐ If this project helped you, please give it a star!# cypress-bdd-framework
