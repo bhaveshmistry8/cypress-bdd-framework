@@ -1,0 +1,44 @@
+{
+  "name": "cypress-bdd-automation-framework",
+  "version": "1.0.0",
+  "description": "Professional Cypress test automation framework with BDD, E2E, and API testing",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox",
+    "test:edge": "cypress run --browser edge",
+    "test:e2e": "cypress run --spec 'cypress/e2e/features/e2e/**/*.feature'",
+    "test:api": "cypress run --spec 'cypress/e2e/features/api/**/*.feature'",
+    "test:headed": "cypress run --headed",
+    "clean:reports": "rm -rf cypress/reports cypress/screenshots cypress/videos",
+    "report": "open cypress/reports/html/index.html",
+    "pretest": "npm run clean:reports"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "bdd",
+    "e2e",
+    "api-testing",
+    "automation",
+    "testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.0",
+    "cypress-mochawesome-reporter": "^3.8.0",
+    "multiple-cucumber-html-reporter": "^3.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/step_definitions/**/*.{js,ts}"
+    ],
+    "filterSpecs": true,
+    "omitFiltered": true
+  }
+}
