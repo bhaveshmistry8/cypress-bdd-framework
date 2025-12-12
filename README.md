@@ -1,6 +1,6 @@
 # Cypress BDD Test Automation Framework
 
-A professional-grade test automation framework demonstrating E2E and API testing using Cypress with Cucumber BDD.
+A test automation framework demonstrating E2E and API testing using Cypress with Cucumber BDD.
 
 ## 🚀 Features
 
