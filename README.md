@@ -99,6 +99,6 @@ cypress-bdd-framework/
 
 ## 📧 Contact
 
-Your Name - bhaveshmistry@outlook.com
+Email: bhaveshmistry@outlook.com
 GitHub: @bhaveshmistry8
 
