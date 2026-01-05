@@ -1,6 +1,6 @@
 # Cypress BDD Test Automation Framework
 
-A test automation framework demonstrating E2E and API testing using Cypress with Cucumber BDD.
+A test automation framework demonstrating E2E and API testing using Cypress with BDD.
 
 ## 🚀 Features
 
@@ -88,14 +88,6 @@ cypress-bdd-framework/
 - Response validation
 - Error handling
 - Schema validation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## 📧 Contact
 
